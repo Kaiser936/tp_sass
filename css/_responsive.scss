@@ -1,0 +1,75 @@
+// -----> Desktop version <------
+@media screen and (min-width: 991px){
+    header {
+        nav{
+            .menuDesktop {
+                display: flex !important;
+            }
+            .burger {
+                display: none;
+            }
+        }   
+    }
+
+    main {
+        #section1{
+            height: 70vh;
+        }
+    
+        #aboutMe {
+            display: flex;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            img {
+                max-width: 50%;
+                height: 50%;
+            }
+
+        }
+    
+        #portefolio{
+            margin-left: 5rem;
+            margin-right: 5rem;
+
+            .card {
+                width:200px;
+                margin: 20px;
+            }
+        }
+    
+        #offer {
+            margin-left: 5rem;
+            margin-right: 5rem;
+
+            }
+    }
+
+    footer {
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        justify-content: space-between;
+        p {
+            margin-right: 100px;
+        }
+        .p2 {
+            display: none;
+
+        }
+    }
+}
+
+@media screen and (min-width: 800px){
+
+    .card-container {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card {
+            width:200px;
+            margin: 20px;
+        }
+    }
+
+
+}

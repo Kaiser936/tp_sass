@@ -1,0 +1,49 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    nav {
+        box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+        display: none;
+        @include flexRow();
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        .menuDesktop{
+            display: none;
+            margin-top: 1.2rem;
+            a{
+                color: black;
+                margin-right: 3rem;
+            }
+        }
+        img {
+            margin: 1rem;
+        }
+        .burger {
+            font-size:30px;
+            margin-top: 0.8rem;
+            margin-right: 2rem;
+        }
+    }
+}
+
+.invisible {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: white;
+    text-align: center;
+        
+    li {
+        margin-bottom: 2rem;
+        a{
+            color: black;            
+        }
+    }
+}
+
+.apparait {
+    display:flex !important;
+    transition: padding-top 0.3s ease-in-out;
+}

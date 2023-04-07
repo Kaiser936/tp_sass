@@ -1,0 +1,21 @@
+.card {
+    max-width:300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.427);
+
+    img{
+        max-width: 100%;
+    }
+
+    .titleCard {
+        color:rgb(67, 227, 255);
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    p {
+        padding-bottom: 0.5rem;
+        margin-left: 1rem;
+    }
+}
